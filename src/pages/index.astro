@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Astro</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="stylesheet" href="/style/home.css">
+    <!-- heading will be red after astro build, this works as expected 
+    <style>
+        h1 {
+            color: red;
+        }
+    </style> 
+    -->
+</head>
+<body>
+    <main>
+        <h1>Welcome to <a href="https://astro.build/">Astro</a></h1>
+    </main>
+</body>
+</html>
+
+<!-- heading will be blue after astro build, not expected! -->
+<style>
+    h1 {
+        color: red;
+    }
+</style>
